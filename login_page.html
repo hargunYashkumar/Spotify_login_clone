@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login Page</title>
+    <link  rel="stylesheet" href="login_page.css">
+</head>
+<body>
+    <header>
+        <div id="logo1">
+            <a href="login_page.html"> 
+                <img src="Spotify_Logo_RGB_Green.png" alt="Spotify Logo" height="36px">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div id="logo3">
+            <div id="div1">
+                <h1>Log in to Spotify</h1>
+            </div>
+            <div id="div3">
+                <button><img src="google-logo-9808.png" alt="google">Continue with Google</button>
+                <button><img src="facebook.png" alt="facebook">Continue with Facebook</button>
+                <button><img src="apple.png" alt="apple">Continue with Apple</button>
+                <button> Continue with Phone Number</button>
+            </div>
+            <div class="div2">
+                <hr>
+            </div>
+            <div id="div4">
+                <div class="inputDiv">
+                    <h4>Email or username</h4><br>
+                <input type="text" placeholder="     Email or username"><br><br>
+                </div>
+                <div class="inputDiv">
+                    <h4>Password</h4><br>
+                <input type="password" placeholder="     Password"><br>
+                </div><br>
+                <div id="ny">
+                    <label class="switch">
+                        <input type="checkbox" id="toggleSwitch">
+                        <div class="slider"></div>
+                    </label>
+                    <p>Remember me</p>
+                </div>  
+                <br>                                                   
+                <div>
+                    <button onclick="validateLogin()" >Log In</button>
+                </div>
+                <br>
+                <div id="pp"><a href="#">Forgot your password?</a></div>
+            </div>
+            <div class="div2">
+                <hr>
+            </div>
+            <div id="div6">
+                <h5> Don't have an account? <a href="#">Sign up for Spotify</a></h5>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="logo2">
+            <p>This site is protected by reCAPTCHA and the Google<a href="https://policies.google.com/privacy"> Privacy Policy </a>and<a href="https://policies.google.com/terms"> Terms of Service</a> apply.</p>
+        </div>
+    </footer>
+</body>
+<script src="login.js"></script>
+</html>
